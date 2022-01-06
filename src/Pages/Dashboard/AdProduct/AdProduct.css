@@ -1,0 +1,29 @@
+.add-product-area{
+  min-height: 82.1vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.add-product-area h2{
+  font-size: 42px;
+  font-weight: 700;
+}
+.add-product-area form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
+}
+.add-product-area form input,textarea{
+  margin: 5px 0;
+  width: 100%;
+  height: 50px;
+}
+input[type='submit']{
+  font-size: 22px;
+  font-weight: 600;
+  background-color: rgb(53, 53, 236);
+  color: #FFFFFF;
+}
